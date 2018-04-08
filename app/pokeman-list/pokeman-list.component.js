@@ -34,11 +34,9 @@ angular.
           });
           self.pokemans = pokemans;
           self.numberOfPages= Math.ceil(self.pokemans.length/self.pageSize);                
-        
 
         }, function errorCallback(response) {
-          // called asynchronously if an error occurs
-          // or server returns response with an error status.
+          console.log("Error while calling pokeman api");
         });
 
     }
