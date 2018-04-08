@@ -1,0 +1,17 @@
+{
+  "name": "Pokeman",
+  "version": "0.0.0",
+  "description": "Sorting Pokeman's",
+  "repository": "https://github.com/AnshuConsultingServices/pokemon.git",
+  "license": "Veera",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8001 -c-1",
+    "pretest": "npm install"
+  }
+}

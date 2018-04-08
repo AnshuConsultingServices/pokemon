@@ -1,0 +1,100 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+/* View: Pokemans list */
+.pokemans {
+  list-style: none;
+}
+
+.pokemans li {
+  clear: both;
+  height: 115px;
+  padding-top: 15px;
+}
+
+.thumb {
+  float: left;
+  height: 100px;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  width: 100px;
+}
+
+/* View: pokeman detail */
+.pokeman {
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  height: 400px;
+  margin-bottom: 2em;
+  margin-right: 3em;
+  padding: 2em;
+  width: 400px;
+}
+
+.pokeman-thumbs {
+  list-style: none;
+  margin: 0;
+}
+
+.pokeman-thumbs img {
+  height: 100px;
+  padding: 1em;
+  width: 100px;
+}
+
+.pokeman-thumbs li {
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1em;
+}
+
+.specs {
+  clear: both;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.specs dt {
+  font-weight: bold;
+}
+
+.specs > li {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+}
+
+.specs > li > span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+/* Container holding the image and the text */
+.imgcontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imgcontainer img{
+    width: 100%;
+    height: max-content;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    padding: 100px 0px 0px 70px;
+    font-weight: inherit;
+    font-size: 50px;
+}
+

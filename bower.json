@@ -1,0 +1,14 @@
+{
+  "name": "pokeman",
+  "description": "Sorting Pokeman's",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AnshuConsultingServices/pokemon.git",
+  "license": "Veera",
+  "dependencies": {
+    "angular": "1.6.9",
+    "angular-mocks": "1.6.9",
+    "angular-resource": "1.6.9",
+    "angular-bootstrap":"2.5.0",
+    "bootstrap": "3.3.x"
+  }
+}
