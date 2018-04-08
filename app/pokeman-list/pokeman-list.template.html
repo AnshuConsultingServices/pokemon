@@ -8,7 +8,8 @@
   <div class="row">
         <div ng-repeat="pokeman in $ctrl.pokemans | startFrom:$ctrl.currentPage*$ctrl.pageSize | filter:$ctrl.query  | limitTo:$ctrl.pageSize" class="column">
             <img ng-src="img/pokemans/{{pokeman.id}}.png" alt="{{pokeman.name}}" />
-          <p>{{pokeman.name}}</p>
+          <p>Name : {{pokeman.name}}</p>
+          <p>Number : {{pokeman.id}}</p>
         </div>
   </div>
   <div class="row">
